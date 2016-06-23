@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryPattern.multiFactory.FactoryTestMulti</OriginalElement>
+  <nodes>
+    <node x="0.0" y="101.0">factoryPattern.normalFactory.SmsSender</node>
+    <node x="142.0" y="101.0">factoryPattern.normalFactory.MailSender</node>
+    <node x="145.61111111111111" y="0.0">factoryPattern.normalFactory.Sender</node>
+    <node x="124.27777777777777" y="202.0">factoryPattern.multiFactory.SendMultiFactory</node>
+    <node x="124.77777777777777" y="325.0">factoryPattern.multiFactory.FactoryTestMulti</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryPattern.multiFactory.SendMultiFactory" target="factoryPattern.normalFactory.Sender">
+      <point x="51.33333333333334" y="-36.5" />
+      <point x="252.61111111111111" y="177.0" />
+      <point x="274.5" y="177.0" />
+      <point x="274.5" y="76.0" />
+      <point x="247.27777777777777" y="76.0" />
+      <point x="40.66666666666666" y="25.5" />
+    </edge>
+    <edge source="factoryPattern.multiFactory.FactoryTestMulti" target="factoryPattern.multiFactory.SendMultiFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="factoryPattern.normalFactory.SmsSender" target="factoryPattern.normalFactory.Sender">
+      <point x="0.0" y="-25.5" />
+      <point x="61.0" y="76.0" />
+      <point x="165.94444444444446" y="76.0" />
+      <point x="-40.66666666666666" y="25.5" />
+    </edge>
+    <edge source="factoryPattern.multiFactory.SendMultiFactory" target="factoryPattern.normalFactory.SmsSender">
+      <point x="-51.33333333333334" y="-36.5" />
+      <point x="149.94444444444443" y="177.0" />
+      <point x="61.0" y="177.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="factoryPattern.multiFactory.SendMultiFactory" target="factoryPattern.normalFactory.MailSender">
+      <point x="0.0" y="-36.5" />
+      <point x="201.27777777777777" y="177.0" />
+      <point x="203.0" y="177.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="factoryPattern.normalFactory.MailSender" target="factoryPattern.normalFactory.Sender">
+      <point x="0.0" y="-25.5" />
+      <point x="203.0" y="76.0" />
+      <point x="206.61111111111111" y="76.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9368686868686869" x="139.5" y="188.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

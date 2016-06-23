@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryPattern.abstractFactoy.MailSenderFactory</OriginalElement>
+  <nodes>
+    <node x="-168.0" y="98.0">factoryPattern.abstractFactoy.FactoryTestAbstract</node>
+    <node x="124.24999999999999" y="79.0">factoryPattern.abstractFactoy.Providor</node>
+    <node x="234.5" y="79.0">factoryPattern.normalFactory.SmsSender</node>
+    <node x="0.0" y="79.0">factoryPattern.normalFactory.MailSender</node>
+    <node x="22.875" y="158.0">factoryPattern.abstractFactoy.MailSenderFactory</node>
+    <node x="128.5" y="0.0">factoryPattern.normalFactory.Sender</node>
+    <node x="172.875" y="158.0">factoryPattern.abstractFactoy.SmsSenderFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryPattern.abstractFactoy.MailSenderFactory" target="factoryPattern.normalFactory.MailSender">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factoryPattern.abstractFactoy.SmsSenderFactory" target="factoryPattern.abstractFactoy.Providor">
+      <point x="-32.25" y="-14.5" />
+      <point x="205.125" y="133.0" />
+      <point x="182.0" y="133.0" />
+      <point x="19.25" y="14.5" />
+    </edge>
+    <edge source="factoryPattern.normalFactory.SmsSender" target="factoryPattern.normalFactory.Sender">
+      <point x="0.0" y="-14.5" />
+      <point x="279.5" y="54.0" />
+      <point x="179.5" y="54.0" />
+      <point x="17.0" y="14.5" />
+    </edge>
+    <edge source="factoryPattern.normalFactory.MailSender" target="factoryPattern.normalFactory.Sender">
+      <point x="0.0" y="-14.5" />
+      <point x="45.5" y="54.0" />
+      <point x="145.5" y="54.0" />
+      <point x="-17.0" y="14.5" />
+    </edge>
+    <edge source="factoryPattern.abstractFactoy.MailSenderFactory" target="factoryPattern.abstractFactoy.Providor">
+      <point x="32.5" y="-14.5" />
+      <point x="120.375" y="133.0" />
+      <point x="143.5" y="133.0" />
+      <point x="-19.25" y="14.5" />
+    </edge>
+    <edge source="factoryPattern.abstractFactoy.SmsSenderFactory" target="factoryPattern.normalFactory.SmsSender">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="162.5" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
